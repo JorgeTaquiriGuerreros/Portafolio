@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Taquiri - Portafolio Profesional</title>
+    <link rel="stylesheet" href="css/matriz.css">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor nav-container">
+            <a href="#inicio" class="logo">
+                Portafolio personal<span></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#hoja-de-vida">Hoja de Vida</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+       
+        <section id="inicio" class="contenedor inicio">
+            <div class="perfil">
+                <div class="etiqueta">Estudiante de Ciencia de la Computación</div>
+                <h1>Hola, soy <span>Jorge Taquiri</span></h1>
+                <h2>Estudiante de Ciencia de la Computación</h2>
+                <p>Orientado a la automatización de procesos, desarrollo web y procesamiento de datos. Me apasiona aprender nuevas herramientas y resolver problemas complejos de forma eficiente en entornos de desarrollo y gestión operativa.</p>
+
+                <div class="mini-badges">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>SQL</span>
+                </div>
+
+                <a href="#contacto" class="btn">Contáctame</a>
+            </div>
+
+            <div class="foto-perfil">
+                <div class="marco-foto">
+                    <img src="img/mifoto.jpeg" alt="Jorge Taquiri">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="hoja-de-vida" class="contenedor cv-section">
+            <h2 class="titulo-seccion">Mi Hoja de Vida</h2>
+            
+            <div class="grid-cv">
+                <div class="tarjeta tarjeta-educacion">
+                    <h3>Formación Académica</h3>
+                    <ul>
+                        <li>
+                            <strong>Ciencia de la Computación</strong><br>
+                            Universidad Nacional de San Agustín (UNSA) | 2022 - Actualidad
+                        </li>
+                        <li>
+                            <strong>Diseño y Desarrollo de Software</strong><br>
+                            Escuela de Educación Superior Certus | 2026 - Presente
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tarjeta tarjeta-experiencia">
+                    <h3>Experiencia Laboral</h3>
+                    <ul>
+                        <li>
+                            <strong>Cajero - Reponedor</strong><br>
+                            Minimarket "Choque" | Marzo 2025 - Septiembre 2025<br>
+                            <small>Atención al cliente, control de inventario y gestión de caja con enfoque en servicio y orden.</small>
+                        </li>
+                        <li>
+                            <strong>Recepcionista - Mozo</strong><br>
+                            Hotel Plaza San Antonio | Septiembre 2023 - Enero 2025<br>
+                            <small>Registro de huéspedes, apoyo operativo y atención al cliente en un entorno dinámico.</small>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tarjeta tarjeta-habilidades">
+                    <h3>Habilidades Principales</h3>
+                    <ul class="lista-habilidades">
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>SQL</li>
+                        <li>Automatización</li>
+                        <li>Resolución de Problemas</li>
+                        <li>Trabajo en Equipo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contenedor bg-claro">
+            <h2 class="titulo-seccion">Ponte en contacto</h2>
+            
+            <form action="#" method="POST" class="formulario">
+                <div class="grupo-input">
+                    <label for="nombres">Nombres:</label>
+                    <input type="text" id="nombres" name="nombres" required>
+                </div>
+                
+                <div class="grupo-input">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+
+                <div class="grupo-input">
+                    <label for="servicio">Motivo de contacto:</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Seleccione una opción...</option>
+                        <option value="freelance">Proyecto Freelance</option>
+                        <option value="empleo">Oferta Laboral</option>
+                        <option value="consulta">Consulta General</option>
+                    </select>
+                </div>
+
+                <div class="grupo-input ancho-completo">
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                </div>
+
+                <div class="grupo-input ancho-completo">
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; 2026 Jorge Taquiri. Todos los derechos reservados.</p>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jorge-patrick-taquiri-guerreros-4284b7195" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/JorgeTaquiriGuerreros/Portafolio.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
